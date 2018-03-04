@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 79px;
+    background-color: #3b5999;
+    border-bottom: 1px solid #223b64;
+}
+
+.header-block{
+    width: 985px;
+    margin: 0 auto;
+    color: #e8fcff
+}
+.logo{ 
+    width: 50%;
+    float: left;
+}
+.logo img{ 
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+.input{ 
+    width: 50%;
+    float: left;
+    padding-top: 18px;
+    
+}
+.email{ 
+    float: left 
+}
+.password{ 
+     float: left;
+    margin-left: 15px
+}
+.login{ 
+    float: left;
+    padding-top: 18px;
+}
+.email label{ 
+     padding-bottom: 10px;
+}
+.password label{ 
+     padding-bottom: 10px
+}
+.password a{ 
+    color: #96b1e8;
+    height: 12px;
+    text-decoration: none
+}
+.email input[type="email"]{ 
+height: 22px;
+width: 150px;
+border: 1px solid #262b41
+}
+.password input[type="password"]{ 
+   height: 22px;
+   width: 150px;
+   border: 1px solid #262b41
+}
+.login{ 
+   margin-left: 16px;
+    float: left;
+    
+}
+.login input[type="submit"]{ 
+    background-color: #385fbe;
+    height: 24px;
+    width: 48px;
+    border: 1px solid #234584;
+    border-radius: 1px solid;
+    color: #fcf8ff;
+    
+    
+}
+
+.content{ 
+     width: 985px;
+    margin: 0 auto;
+    clear: both;
+    min-height: 600px;
+    overflow: hidden;
+    
+    
+}
+.main_content{ 
+    margin-top: 47px;
+    float: left;
+    min-height: 600px
+    
+}
+.main_content h4{ 
+   color: #294b78;
+    font-size: 20px
+}
+.main_content img{ 
+   width;430px
+}
+.sign_up{ 
+float: left;
+    min-height: 600px;
+        padding-top: 36px;
+    padding-left: 41px
+ }
+.create_account{ 
+    float: left;
+    width: 50%;
+    padding-left: 59px;
+    margin-top: 30px
+}
+.content_container{ 
+   background: linear-gradient(#fefefe,#d8dbea)
+}
+.create_account h2{ 
+   font-size: 30px;
+    font-weight: bold;
+}
+
+.para{ 
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.account input[type="text"]{ 
+ 
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px
+    
+}
+
+.psw{ 
+    width: 375px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+     margin-bottom: 10px
+    
+}
+.bday{ 
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e40;
+    margin-bottom: 10px
+}
+.select_input{ 
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.radio{ 
+   color: #262a36;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #4377a9
+}
+.account input[type="submit"]{ 
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    background-color: #69AA55;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #3B6E22;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+.last{ 
+   font-size: 20px;
+    color: #908e9b;
+}
+
+::-webkit-input-placeholder{
+                font-size: 20px;
+    color: #939d95;
+    padding-top: 10px
+            }
+            :-noz-placeholder{ 
+                                  font-size: 20px;
+    color: #939d95;
+            ::-moz-placeholder{ 
+                                  font-size: 20px;
+    color: #939d95;
+            }
+            :-ns-input-placeholder{
+                                  font-size: 20px;
+    color: #939d95;
+                
+            }
